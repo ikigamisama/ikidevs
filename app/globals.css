@@ -464,7 +464,7 @@ body::before {
 }
 .btn-primary {
 	font-family: "IBM Plex Mono", monospace;
-	font-size: 0.75rem;
+	font-size: 0.65rem;
 	color: var(--bg);
 	background: var(--cyan);
 	border: none;
@@ -480,7 +480,7 @@ body::before {
 }
 .btn-ghost {
 	font-family: "IBM Plex Mono", monospace;
-	font-size: 0.75rem;
+	font-size: 0.65rem;
 	color: var(--cyan);
 	background: transparent;
 	border: 1px solid var(--accent-border);
