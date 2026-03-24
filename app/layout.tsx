@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 		description:
 			"Building automated ETL pipelines, optimizing data workflows, and enabling teams to unlock value from data at scale.",
 		type: "website",
-		url: "https://ikigami-devs.vercel.app",
+		url: "https://ikidevs.vercel.app",
 	},
-	twitter: { card: "summary", creator: "@ikigamidevs" },
+	twitter: { card: "summary", creator: "@iikigami" },
 };
 
 export default function RootLayout({
