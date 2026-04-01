@@ -13,7 +13,7 @@ export default function ProjectCard({
 	title,
 	desc,
 	url,
-	linkLabel = "→ github.com/ikigamisama",
+	linkLabel = "→ github.com/ikidevz",
 }: ProjectCardProps) {
 	return (
 		<a

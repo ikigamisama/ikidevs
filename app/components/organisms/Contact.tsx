@@ -5,7 +5,7 @@ const DETAILS = [
 	{ label: "phone", val: "(+639) 763 351 225" },
 	{ label: "email", val: "ikigamidevs@gmail.com" },
 	{ label: "location", val: "Davao City, Philippines" },
-	{ label: "github", val: "github.com/ikigamisama" },
+	{ label: "github", val: "github.com/ikidevz" },
 ];
 
 export default function Contact() {
@@ -26,7 +26,7 @@ export default function Contact() {
 							./send_email.sh
 						</Button>
 						<Button
-							href='https://github.com/ikigamisama'
+							href='https://github.com/ikidevz'
 							variant='ghost'
 							target='_blank'
 							rel='noopener noreferrer'>
