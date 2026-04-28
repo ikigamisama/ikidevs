@@ -16,6 +16,14 @@ export default function Projects() {
 				footerTag='Streamlit · Live App'
 			/>
 
+			<FeaturedCard
+				title="Iki's Project Blog"
+				desc='A NextJS blog I built to share project case studies, technical deep-dives, and engineering insights. It’s a space for me to document my work and share knowledge with the community.'
+				url='https://ikiblog.vercel.app'
+				linkLabel='ikiblog.vercel.app'
+				footerTag='NextJS · Live App'
+			/>
+
 			<div className='projects-grid'>
 				{HIGHLIGHT_PROJECTS.map((p) => (
 					<ProjectCard
