@@ -25,7 +25,7 @@ export const STACK_SKILLS = [
 
 export const STATS = [
 	{ n: "5+", l: "YRS_EXP" },
-	{ n: "122", l: "REPOS" },
+	{ n: "130+", l: "REPOS" },
 	{ n: "15+", l: "DATA_PROJ" },
 	{ n: "6", l: "CERTS" },
 ];
