@@ -717,6 +717,17 @@ body::before {
 	padding-top: 3px;
 	letter-spacing: 0.04em;
 }
+@media (max-width: 768px) {
+	.exp-item {
+		flex-direction: column;
+		gap: 8px; /* tighter spacing for vertical */
+	}
+
+	.exp-date {
+		width: auto; /* remove fixed width */
+		padding-top: 0;
+	}
+}
 .exp-role {
 	font-family: "Space Mono", monospace;
 	font-size: 1.2rem;
