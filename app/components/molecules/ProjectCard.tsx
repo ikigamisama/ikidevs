@@ -4,6 +4,7 @@ interface ProjectCardProps {
 	title: string;
 	desc: string;
 	url: string;
+	github?: string;
 	linkLabel?: string;
 }
 
@@ -13,7 +14,8 @@ export default function ProjectCard({
 	title,
 	desc,
 	url,
-	linkLabel = "→ github.com/ikidevz",
+	github,
+	linkLabel = "→ view project",
 }: ProjectCardProps) {
 	return (
 		<a
@@ -27,7 +29,18 @@ export default function ProjectCard({
 			</div>
 			<div className='proj-title'>{title}</div>
 			<div className='proj-desc'>{desc}</div>
-			<div className='proj-link'>{linkLabel}</div>
+			<div className='proj-links'>
+				<span className='proj-link'>{linkLabel}</span>
+				{github && (
+					<a
+						href={github}
+						target='_blank'
+						rel='noopener noreferrer'
+						className='proj-link proj-link--github'>
+						→ github
+					</a>
+				)}
+			</div>
 		</a>
 	);
 }
