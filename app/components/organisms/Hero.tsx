@@ -32,7 +32,7 @@ export default function Hero() {
 
 				<div className='hero-btns anim-4'>
 					<Button
-						href='https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/resume/franz_monzales_cv.pdf'
+						href='https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/resume/franz_monzales_DE_cv.pdf'
 						variant='primary'
 						target='_blank'
 						rel='noopener noreferrer'>
