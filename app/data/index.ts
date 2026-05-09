@@ -129,6 +129,15 @@ export const HIGHLIGHT_PROJECTS = [
 	{
 		tag: "Data Engineering",
 		date: "May 2026",
+		title: "BSP AMLA Compliance Suspicious Transaction Reporting Pipeline",
+		desc: "A production-grade Apache Airflow + dbt data pipeline for Bank of Philippine Islands (BSP) Anti-Money Laundering (AML) and Suspicious Transaction Reporting (STR) compliance automation.",
+		url: "https://ikiblog.vercel.app/posts/i-built-a-production-grade-aml-compliance-pipeline-for-philippine-banking",
+		github:
+			"https://github.com/ikidevz/BSP-AMLA-Compliance-Suspicious-Transaction-Reporting-Pipeline",
+	},
+	{
+		tag: "Data Engineering",
+		date: "May 2026",
 		title: "Landed Cost Calculator Pipeline",
 		desc: "End-to-end production-grade logistics pipeline for Philippine imports. Calculates full landed costs with Kafka, Airflow, PostgreSQL, dbt, and Metabase.",
 		url: "https://ikiblog.vercel.app/posts/building-a-real-time-import-cost-pipeline-from-zero-kafka-airflow-3-dbt-postgresql-with-metabase-on-docker",
